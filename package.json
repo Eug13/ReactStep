@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "google-maps-react": "^2.0.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-dropdown": "^1.5.0",
+    "react-scripts": "1.1.4",
+    "react-spring": "^5.3.19"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": {
+    "https://api.darksky.net/forecast/775cca89fbf841e078cfd5f42a47389c": {
+      "target": "http://localhost:3000"
+    },
+    "http://api.minfin.com.ua": {
+      "target": "http://api.minfin.com.ua"
+    }
+  }
+}

@@ -8,8 +8,23 @@
 
 .section-content{
   text-align: center;
-
+  margin-bottom: 40px;
 }
+button{
+  background-color:transparent;
+  border:1px solid white;
+  color:white;
+  border-radius:4px 4px 4px 4px;
+  padding:8px 12%;
+  float: right;
+}
+
+.inBorder{
+  border-right:1px solid white;
+  padding-right:20px;
+  margin-bottom: 40px;
+}
+
 #contact{
 
   font-family: 'Teko', sans-serif;
@@ -67,4 +82,31 @@ tr td{
 .credit-detail h3{
   text-align: center;
   padding-top: 30px;
+}
+
+.get{
+  font-family: 'Teko', sans-serif;
+  color:white;
+  margin:0 10px;
+  font-size: 35px;
+}
+
+.tr:hover{
+  border-radius:4px 4px 4px 4px;
+  border:1px solid white;
+}
+
+.creditDetail{
+  padding:20px 0;
+  margin-bottom:14%;
+  
+}
+
+.money{
+  margin:0px 20px;
+  font-size: 18px;
+}
+
+.money strong{
+  color:#fcc500;
 }
