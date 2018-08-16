@@ -10,7 +10,6 @@ class LeftTable extends React.Component {
 
     getUsers() {
         const users = this.props.users;
-        console.log(users)
     
     if(users) {
         return users.map((user, index) => {

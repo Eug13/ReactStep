@@ -110,3 +110,13 @@ tr td{
 .money strong{
   color:#fcc500;
 }
+
+.red  
+ {
+  color:red;
+  background-color: yellow;
+  border-radius:0px 0px 4px 4px;
+  padding:0 10px;
+  font-size: 18px;
+}
+
